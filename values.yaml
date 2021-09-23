@@ -84,8 +84,10 @@ affinity: {}
 ## @param env - Array containing env vars to configure service
 ## For example:
 ## env:
-##   DATABASE_URL: mysql://127.0.0.1:3306
-##   LOG_LEVEL: debug
+##   - name: DATABASE_URL
+##     value: mysql://127.0.0.1:3306
+##   - name: LOG_LEVEL
+##     value: debug
 ##
 env:
 
